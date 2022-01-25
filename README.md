@@ -1,7 +1,7 @@
 # ArengBeemodPackages
 My Beemod UCPs That I made
 
-ISSUES
+Issues
 Please report issues at 
 https://github.com/Areng14/ArengBeemodPackages/issues/new
 
