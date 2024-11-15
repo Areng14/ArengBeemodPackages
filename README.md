@@ -9,4 +9,4 @@ Installation
 Extract the zip then put the .bee_pack file into the Beemod packages folder and relaunch.
  
 Releases page
-https://github.com/Areng14/ArengBeemodPackages/releases/tag/Version1.5
+https://github.com/Areng14/ArengBeemodPackages/releases/
