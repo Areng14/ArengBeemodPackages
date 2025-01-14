@@ -1,0 +1,10 @@
+"Properties" {
+	"Authors"		"BEEmaker,"
+	"Tags"			"Custom"
+	"Description"	"An handrail"
+	"infoURL"		"https:/\/google.com/"
+	"Ent_count"     "0"
+	"Icon" {
+		"0"	"beepkg/handrail.png"
+	}
+}
