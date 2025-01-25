@@ -1,0 +1,9 @@
+Patch
+{
+include "materials/BEE2/fizz/switch/switch_field.vmt"
+insert
+{
+$flowbounds "BEE2/fizz/switch/switch_fizz_bounds_r"
+}
+}
+

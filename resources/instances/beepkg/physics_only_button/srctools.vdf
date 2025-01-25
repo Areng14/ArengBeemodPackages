@@ -1,0 +1,137 @@
+"Config"
+	{
+	// The main game folder. portal2/ for Portal 2, csgo/ for CSGO, etc.
+	// This is relative to the config file.
+	// "gameinfo" ""
+
+
+	// Automatically find and pack files in the map. 
+	// If this is disabled, specifically-indicated files will still be 
+	// added as well as their dependencies.
+	// Default Value: "1"
+	"auto_pack" "1"
+
+
+	// Allow files in VPKs to be packed into the map. 
+	// This is disabled by default since these are usually default files.
+	// Default Value: "0"
+	"pack_vpk" "0"
+
+
+	// If set, copy all the packed resoures to this additional location.
+	// You can also prefix this with a # character to only copy to this 
+	// destination, not the BSP pakfile.
+	// "pack_dump" ""
+
+
+	// Add additional search paths to the game. Each key-value pair
+	// defines a path, with the value either a folder path or a VPK 
+	// filename relative to the game root. The key defines the behaviour:
+	// * "prefix" "folder/" adds the path to the start, so it overrides
+	//     all others.
+	// * "path" "vpk_path.vpk" adds the path to the end, so it is checked last.
+	// * "nopack" "folder/" prohibits files in this path from being packed, you'll need to use one of the others also to add the path.
+	"searchpaths"
+		{
+		}
+
+
+	// Generate and pack game_sounds_manifest.txt, with all used soundscripts.     
+	// This is needed to make packing soundscripts work for the Portal 2 
+	// workshop.
+	// Default Value: "0"
+	"soundscript_manifest" "0"
+
+
+	// If set to a path, generate and pack a particles manifest under this name.     
+	// This is needed to make packing particles work. "<map name>" is replaced with the map name.
+	// Depending on your game, these are some of the correct paths:
+	// * particles/particles_manifest.txt
+	// * maps/<map name>_particles.txt (TF2)
+	// * particles/<map name>_manifest.txt (L4D2, Portal 2)
+	// Default Value: ""
+	"particles_manifest" ""
+
+
+	// Set the path to StudioMDL so the compiler can generate props.
+	// If blank these features are disabled.
+	// This is relative to the game root.
+	// Default Value: "bin/studiomdl.exe"
+	"studiomdl" "bin/studiomdl.exe"
+
+
+	// Before L4D, entity I/O used ',' to seperate the different parts.
+	// 
+	// Later games used a special symbol to delimit the sections, allowing
+	// commas to be used in outputs. The compiler will guess which to use
+	// based on existing outputs in the map, but if this is incorrect 
+	// (or if there aren't any in the map), use this to override.
+	// "use_comma_sep" ""
+
+
+	// Define where the QC files are for combinable static props.
+	// This path is searched recursively. This defaults to 
+	// the 'content/' folder, which is adjacent to the game root.
+	// This is how Valve sets up their file structure.
+	"propcombine_qc_folder"
+		{
+		"loc" "../content"
+		}
+
+
+	// If enabled, Crowbar will be used to decompile models which don't have
+	// a QC in the provided QC folder.
+	// Default Value: "1"
+	"propcombine_crowbar" "1"
+
+
+	// Cache location for models decompiled for combining.
+	// Default Value: "decomp_cache/"
+	"propcombine_cache" "decomp_cache/"
+
+
+	// When propcombining, an attempt will be made to merge collision meshes.
+	// 
+	// If shrink wrapping a pair of meshes changes the volume less than this,
+	// the combined version will be used. If negative, this will not be done.
+	// Default Value: "-1.0"
+	"propcombine_volume_tolerance" "-1.0"
+
+
+	// If greater than zero, combine props at least this close together.
+	// Default Value: "0"
+	"propcombine_auto_range" "0"
+
+
+	// The minimum number of props required before propcombine will
+	// bother merging them. Should be greater than 1.
+	// Default Value: "2"
+	"propcombine_min_cluster" "2"
+
+
+	// Models specified here will never be propcombined.
+	// 
+	// You can specify a full path, or one with * wildcards. Alternatively,
+	// set 'no_propcombine' in the model $keyvalues.
+	"propcombine_blacklist"
+		{
+		}
+
+
+	// Add plugins to the post compiler. The key defines the behaviour:
+	// * "path" "folder/" loads all .py files in the folder.
+	// * "recursive" "folder/" loads all .py files in the folder and in subfolders.
+	// * "single" "folder/plugin.py" loads a single python file.
+	// The transforms folder inside the postcompiler folder is also always
+	// loaded.
+	"plugins"
+		{
+		}
+
+
+	// Specify additional options specific to transforms. Each key here is the name of the 
+	// transform, and the value is then decided by that transform.
+	"transform_opts"
+		{
+		}
+	}

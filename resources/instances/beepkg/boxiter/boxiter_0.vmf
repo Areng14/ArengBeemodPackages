@@ -1,0 +1,59 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "34"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "1154"
+	"mapversion" "34"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "1155"
+	"classname" "prop_weighted_cube"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"CubeType" "2"
+	"NewSkins" "1"
+	"PaintPower" "4"
+	"skin" "3"
+	"targetname" "LazBox"
+	"origin" "0 0 -44.9665"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "1157"
+	"classname" "env_portal_laser"
+	"angles" "0 0 0"
+	"AutoAimEnabled" "1"
+	"LethalDamage" "0"
+	"model" "models/weapons/w_models/w_portalgun/w_portalgun.mdl"
+	"parentname" "LazBox"
+	"skin" "0"
+	"targetname" "BoxiterLaser"
+	"origin" "-2.78003 -1.39301 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}

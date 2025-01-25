@@ -1,0 +1,119 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8973"
+	"mapversion" "15"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "1"
+}
+world
+{
+	"id" "1"
+	"mapversion" "15"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "12452"
+		side
+		{
+			"id" "17603"
+			"plane" "(-16 16 -31) (16 16 -31) (16 -16 -31)"
+			"material" "CONCRETE/CONCRETE_BTS_FLOOR002B"
+			"uaxis" "[1 0 0 584] 0.83"
+			"vaxis" "[0 -1 0 -46] 0.73"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17604"
+			"plane" "(-16 -16 -63) (16 -16 -63) (16 16 -63)"
+			"material" "CONCRETE/CONCRETE_BTS_FLOOR002B"
+			"uaxis" "[1 0 0 580] 0.83"
+			"vaxis" "[0 -1 0 -50] 0.73"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17605"
+			"plane" "(-16 16 -31) (-16 -16 -31) (-16 -16 -63)"
+			"material" "CONCRETE/CONCRETE_BTS_FLOOR002B"
+			"uaxis" "[0 1 0 580] 0.83"
+			"vaxis" "[0 0 -1 -9] 0.73"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17606"
+			"plane" "(16 16 -63) (16 -16 -63) (16 -16 -31)"
+			"material" "CONCRETE/CONCRETE_BTS_FLOOR002B"
+			"uaxis" "[0 1 0 580] 0.83"
+			"vaxis" "[0 0 -1 -9] 0.73"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17607"
+			"plane" "(16 16 -31) (-16 16 -31) (-16 16 -63)"
+			"material" "CONCRETE/CONCRETE_BTS_FLOOR002B"
+			"uaxis" "[1 0 0 580] 0.83"
+			"vaxis" "[0 0 -1 -9] 0.73"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17608"
+			"plane" "(16 -16 -63) (-16 -16 -63) (-16 -16 -31)"
+			"material" "CONCRETE/CONCRETE_BTS_FLOOR002B"
+			"uaxis" "[1 0 0 580] 0.83"
+			"vaxis" "[0 0 -1 -9] 0.73"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 204 161"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[-92.6085 27.3622 -35.0026]"
+		"look" "[-72.8037 24.2955 -41.0533]"
+	}
+}
+cordons
+{
+	"active" "0"
+}

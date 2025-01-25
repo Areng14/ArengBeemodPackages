@@ -43,13 +43,20 @@
 		{
 			"DefaultValue"	"0"
 			"Index"	"1"
-		}
+		}	
 	}
 
 	"Exporting"
 	{
 		"Inputs"
 		{
+
+			"BEE2"
+			{
+				"Type"	"AND"
+				"Enable_cmd" "Activator,FireUser1,,0,-1"
+				"Disable_cmd" "Activator,FireUser2,,0,-1"
+			}
 
 		}
 		"Outputs"

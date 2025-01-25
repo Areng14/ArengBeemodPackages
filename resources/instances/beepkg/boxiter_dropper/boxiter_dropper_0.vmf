@@ -1,0 +1,433 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "36"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "1424"
+	"mapversion" "36"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	group
+	{
+		"id" "1425"
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "1426"
+	"classname" "env_portal_laser"
+	"angles" "0 0 180"
+	"AutoAimEnabled" "1"
+	"LethalDamage" "0"
+	"model" "models/weapons/w_models/w_portalgun/w_portalgun.mdl"
+	"parentname" "Boxiter"
+	"skin" "0"
+	"targetname" "BoxiterLaser"
+	"origin" "-12 0.999994 -77.4618"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1425"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1428"
+	"classname" "prop_weighted_cube"
+	"allowfunnel" "1"
+	"angles" "0 0 180"
+	"CubeType" "2"
+	"NewSkins" "1"
+	"PaintPower" "4"
+	"skin" "3"
+	"targetname" "Boxiter"
+	"origin" "0 0.60998 -79.4918"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "1425"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "1430"
+	"classname" "trigger_multiple"
+	"origin" "0 0 48.54"
+	"spawnflags" "8"
+	"StartDisabled" "0"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouch" "BoxiterDropperSetAnimationitem_dropper_open0-1"
+	}
+	solid
+	{
+		"id" "1431"
+		side
+		{
+			"id" "1"
+			"plane" "(53.4414 -51.2969 53.5382) (0 -72 53.5382) (-53.4414 -51.2968 53.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(0 -72 43.5382) (53.4336 -51.3027 43.5382) (76 4.76837e-006 43.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(0 -72 53.5382) (53.4375 -51.2988 53.5382) (53.4375 -51.3008 43.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 1 17.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(53.4395 -51.2969 53.5382) (76 5.72205e-006 53.5382) (76 4.76837e-006 43.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 1 17.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(76 5.72205e-006 53.5382) (53.4399 51.3 53.5382) (53.4414 51.2969 43.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 1 17.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(53.4411 51.2988 53.5382) (0 72 53.5382) (0 72 43.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 1 17.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7"
+			"plane" "(0 72 53.5382) (-53.4416 51.2977 53.5382) (-53.4414 51.2988 43.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 1 17.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(-53.441 51.2996 53.5382) (-76 5.72205e-006 53.5382) (-76 4.76837e-006 43.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 1 17.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(-76 5.72205e-006 53.5382) (-53.4412 -51.2969 53.5382) (-53.4391 -51.2977 43.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 1 17.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(-53.4413 -51.2971 53.5382) (0 -72 53.5382) (0 -72 43.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 1 17.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "1433"
+	"classname" "logic_case"
+	"Case01" "1"
+	"targetname" "LogicBoxiterSpawner"
+	connections
+	{
+		"OnCase01" "BoxiterSpawnerForceSpawn5-1"
+	}
+	"origin" "-2 4 -67.4618"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11768]"
+	}
+}
+entity
+{
+	"id" "1435"
+	"classname" "trigger_multiple"
+	"origin" "0 0 76.54"
+	"spawnflags" "8"
+	"StartDisabled" "0"
+	"wait" "1"
+	connections
+	{
+		"OnEndTouch" "BoxiterDropperSetAnimationitem_dropper_close0-1"
+	}
+	solid
+	{
+		"id" "1436"
+		side
+		{
+			"id" "10"
+			"plane" "(53.4414 -51.2969 81.5382) (0 -72 81.5382) (-53.4414 -51.2968 81.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(0 -72 71.5382) (53.4336 -51.3027 71.5382) (76 7.62939e-006 71.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(0 -72 81.5382) (53.4375 -51.2988 81.5382) (53.4375 -51.3008 71.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 1 33.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7"
+			"plane" "(53.4395 -51.2969 81.5382) (76 8.58307e-006 81.5382) (76 7.62939e-006 71.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 1 33.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(76 8.58307e-006 81.5382) (53.4399 51.3 81.5382) (53.4414 51.2969 71.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 1 33.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(53.4411 51.2988 81.5382) (0 72 81.5382) (0 72 71.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 1 33.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(0 72 81.5382) (-53.4416 51.2977 81.5382) (-53.4414 51.2988 71.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 1 33.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-53.441 51.2996 81.5382) (-76 8.58307e-006 81.5382) (-76 7.62939e-006 71.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 1 33.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-76 8.58307e-006 81.5382) (-53.4412 -51.2969 81.5382) (-53.4391 -51.2977 71.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 1 33.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1"
+			"plane" "(-53.4413 -51.2971 81.5382) (0 -72 81.5382) (0 -72 71.5382)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 1 33.8471] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "1438"
+	"classname" "env_entity_maker"
+	"angles" "0 0 0"
+	"EntityTemplate" "BoxiterSpawn"
+	"PostSpawnDirection" "0 0 0"
+	"PostSpawnDirectionVariance" "0.15"
+	"spawnflags" "0"
+	"targetname" "BoxiterSpawner"
+	"origin" "0 2 23.5382"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "1440"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "BoxiterSpawn"
+	"Template01" "Boxiter"
+	"Template02" "BoxiterLaser"
+	"origin" "-2.78 -2 -72.4618"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "1442"
+	"classname" "prop_dynamic"
+	"angles" "0 0 180"
+	"DefaultAnim" "item_dropper_idle_closed"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_backstage/item_dropper.mdl"
+	"renderamt" "255"
+	"rendercolor" "249 63 0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "BoxiterDropper"
+	"origin" "0 -0.309994 22.6482"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}

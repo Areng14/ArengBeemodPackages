@@ -8,7 +8,7 @@
 		"SubTypeProperty" "CubeType"
 		"SubType"
 			{
-			"Name"			"Floor Dropper (Standard)"
+			"Name"			"Catapult Dropper (Standard)"
 			"Model"
 				{
 				"ModelName" "dropper.3ds"
@@ -28,7 +28,7 @@
 			}
 		"SubType"
 			{
-			"Name"			"Floor Dropper (Companion)"
+			"Name"			"Catapult Dropper (Companion)"
 			"Model"
 				{
 				"ModelName"	"dropper.3ds"
@@ -48,7 +48,7 @@
 			}
 		"SubType"
 			{
-			"Name"			"Floor Dropper (Reflective)"
+			"Name"			"Catapult Dropper (Reflective)"
 			"Model"
 				{
 				"ModelName"	"dropper.3ds"
@@ -68,7 +68,7 @@
 			}
 		"SubType"
 			{
-			"Name"			"Floor Dropper (Sphere)"
+			"Name"			"Catapult Dropper (Sphere)"
 			"Model"
 				{
 				"ModelName"	"dropper.3ds"
@@ -88,7 +88,7 @@
 			}
 		"SubType"
 			{
-			"Name"			"Floor Dropper (Old)"
+			"Name"			"Catapult Dropper (Old)"
 			"Model"
 				{
 				"ModelName" "dropper.3ds"
@@ -111,7 +111,11 @@
 		}
 	"Properties"
 	{
-
+		"TimerDelay"
+			{
+			"DefaultValue"	"3"
+			"Index"			"1"
+			}
 		"CubeType"
 			{
 			"DefaultValue"	"0"
