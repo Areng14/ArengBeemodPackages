@@ -1,0 +1,65 @@
+"Item"
+	{
+    "Type"    "WARM_OBSERVATION_ROOM"
+	"Editor"
+		{
+		"SubType"
+			{
+            "Name"                "Warm Observation Room"
+            "Model" { "ModelName"        "observationroom.3ds" }
+            "Palette"
+            	{
+                "Tooltip"        "WARM OBSERVATION ROOM"
+                "Image"            "palette/beepkg/warm_observation_room.png"
+                "Position"    "3 5 0"
+            	}
+			}
+		"MovementHandle"	"HANDLE_4_DIRECTIONS"
+		"InvalidSurface"		"CEILING FLOOR"
+		"Deletable"		"1"
+		"Copyable"		"1"
+		}
+	"Exporting"
+		{
+		"Instances"
+			{
+			"0"
+				{
+				"Name" 				"instances/BEE2/beepkg/warm_observation_room/warm_observation_room_0.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"0"
+				"BrushSideCount"	"0"
+				}
+			}
+
+		"TargetName"		"orl"
+		"Offset"		"64 64 64"
+		"OccupiedVoxels"
+			{
+			"Voxel"
+				{
+				"Pos"		"0 0 0"
+				"Surface"
+					{
+					"Normal"	"0 0 1"
+					}
+				}
+			"Voxel"
+				{
+				"Pos"		"0 1 0"
+				"Surface"
+					{
+					"Normal"	"0 0 1"
+					}
+				}
+			}
+		"EmbeddedVoxels"
+			{
+			"Volume"
+				{
+				"Pos1"		"1 -1 0"
+				"Pos2"		"-1 2 -1"
+				}
+			}
+		}
+	}

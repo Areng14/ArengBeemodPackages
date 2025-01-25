@@ -9,7 +9,7 @@
 		"SubType"
 		{
 			"Name"				"Electricity Field"
-			"Model" { "ModelName"		"sentry.3ds" }
+			"Model" { "ModelName"		"wom_cond_plate_clean.3ds" }
 			"Palette"
 			{
 				"Tooltip"		"ELECTRICITY FIELD"

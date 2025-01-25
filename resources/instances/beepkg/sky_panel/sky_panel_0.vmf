@@ -1,0 +1,120 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "274"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	solid
+	{
+		"id" "275"
+		side
+		{
+			"id" "1"
+			"plane" "(-64 64 -63) (64 64 -63) (64 -64 -63)"
+			"material" "SKYBOX/A4_ARM_LIGHTS_DOT"
+			"uaxis" "[1 0 0 62] 1e+006"
+			"vaxis" "[0 -1 0 42] 1e+006"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-64 -64 -64) (64 -64 -64) (64 64 -64)"
+			"material" "SKYBOX/A4_ARM_LIGHTS_DOT"
+			"uaxis" "[1 0 0 62] 1e+006"
+			"vaxis" "[0 -1 0 42] 1e+006"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-64 64 -63) (-64 -64 -63) (-64 -64 -64)"
+			"material" "SKYBOX/A4_ARM_LIGHTS_DOT"
+			"uaxis" "[0 1 0 62] 1e+006"
+			"vaxis" "[0 0 -1 42] 1e+006"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(64 64 -64) (64 -64 -64) (64 -64 -63)"
+			"material" "SKYBOX/A4_ARM_LIGHTS_DOT"
+			"uaxis" "[0 1 0 62] 1e+006"
+			"vaxis" "[0 0 -1 42] 1e+006"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(64 64 -63) (-64 64 -63) (-64 64 -64)"
+			"material" "SKYBOX/A4_ARM_LIGHTS_DOT"
+			"uaxis" "[1 0 0 62] 1e+006"
+			"vaxis" "[0 0 -1 42] 1e+006"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(64 -64 -64) (-64 -64 -64) (-64 -64 -63)"
+			"material" "SKYBOX/A4_ARM_LIGHTS_DOT"
+			"uaxis" "[1 0 0 62] 1e+006"
+			"vaxis" "[0 0 -1 42] 1e+006"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 210 119"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "276"
+	"classname" "light_spot"
+	"_cone" "90"
+	"_distance" "70"
+	"_exponent" "3"
+	"_fifty_percent_distance" "100"
+	"_inner_cone" "90"
+	"_light" "255 254 206 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "150"
+	"angles" "90 180 -180"
+	"pitch" "89"
+	"origin" "0 0 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}

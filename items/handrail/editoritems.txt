@@ -9,7 +9,7 @@
 			}
 			"Palette" {
 				"Tooltip"	"HANDRAIL"
-				"Image"		"alette/beepkg/handrail.png"
+				"Image"		"palette/beepkg/handrail.png"
 				"Position"	"1 6 0"
 			}
 		    "Sounds" {

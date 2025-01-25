@@ -1,0 +1,95 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "31"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "1013"
+	"mapversion" "31"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	solid
+	{
+		"id" "1014"
+		side
+		{
+			"id" "78"
+			"plane" "(48 28 -71) (-64 28 -71) (-64 -28 -71)"
+			"material" "BEE2/P1/OBS/METALDOOR028A"
+			"uaxis" "[-1 0 0 -20] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "77"
+			"plane" "(-64 -28 -71) (-64 28 -71) (-64 28 -63)"
+			"material" "BEE2/P1/OBS/METALDOOR028A"
+			"uaxis" "[0 -1 0 128] 0.42"
+			"vaxis" "[0 0 1 448] 0.22"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "76"
+			"plane" "(48 -28 -63) (-64 -28 -63) (-64 28 -63)"
+			"material" "BEE2/P1/OBS/METALDOOR028A"
+			"uaxis" "[0 -1 0 112] 0.25"
+			"vaxis" "[-1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75"
+			"plane" "(-64 28 -63) (-64 28 -71) (48 28 -71)"
+			"material" "BEE2/P1/OBS/METALDOOR028A"
+			"uaxis" "[0 0 -1 -221] 0.23"
+			"vaxis" "[-1 0 0 -225] 0.32"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "74"
+			"plane" "(48 -28 -71) (-64 -28 -71) (-64 -28 -63)"
+			"material" "BEE2/P1/OBS/METALDOOR028A"
+			"uaxis" "[1 0 0 115] 0.54"
+			"vaxis" "[0 0 -1 -439] 0.22"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "73"
+			"plane" "(48 28 -71) (48 -28 -71) (48 -28 -63)"
+			"material" "BEE2/P1/OBS/METALDOOR028A"
+			"uaxis" "[0 -1 0 106] 0.35"
+			"vaxis" "[0 0 1 1] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 242 183"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}

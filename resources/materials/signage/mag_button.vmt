@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+"$basetexture" "BEE2/signage/mag_button"
+$selfillum 1
+}

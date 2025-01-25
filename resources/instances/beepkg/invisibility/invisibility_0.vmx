@@ -1,0 +1,197 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "10"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "10"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "18"
+		side
+		{
+			"id" "1"
+			"plane" "(-16 16 -61) (16 16 -61) (16 -16 -61)"
+			"material" "SIGNAGE/INVIS1"
+			"uaxis" "[1 0 0 32] 0.5"
+			"vaxis" "[0 -1 0 32] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-16 -16 -65) (16 -16 -65) (16 16 -65)"
+			"material" "SIGNAGE/INVIS1"
+			"uaxis" "[1 0 0 32] 0.5"
+			"vaxis" "[0 -1 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-16 16 -61) (-16 -16 -61) (-16 -16 -65)"
+			"material" "SIGNAGE/INVIS1"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[0 0 -1 -4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(16 16 -65) (16 -16 -65) (16 -16 -61)"
+			"material" "SIGNAGE/INVIS1"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[0 0 -1 -4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(16 16 -61) (-16 16 -61) (-16 16 -65)"
+			"material" "SIGNAGE/INVIS1"
+			"uaxis" "[1 0 0 32] 0.5"
+			"vaxis" "[0 0 -1 -4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(16 -16 -65) (-16 -16 -65) (-16 -16 -61)"
+			"material" "SIGNAGE/INVIS1"
+			"uaxis" "[1 0 0 32] 0.5"
+			"vaxis" "[0 0 -1 -4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 116 137"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "44"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	"targetname" "Input"
+	connections
+	{
+		"OnMapSpawn" "@CommandsCommandsay Using save states in this chamber may break the invisibility.3-1"
+		"OnMapSpawn" "@CommandsCommandsv_cheats 10-1"
+	}
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "28"
+	"classname" "prop_static"
+	"angles" "-90 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/bee2/props_ingame/sign_frame_1_wback.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 0 -61"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "Input"
+	connections
+	{
+		"OnUser1" "@CommandsCommandnotarget 10-1"
+		"OnUser1" "@CommandsCommandr_drawviewmodel 00-1"
+		"OnUser2" "@CommandsCommandr_drawviewmodel 10-1"
+		"OnUser2" "@CommandsCommandnotarget 00-1"
+		"OnUser1" "@invis_triggerDisable0-1"
+		"OnUser2" "@invis_triggerEnable0-1"
+	}
+	"origin" "0 -32 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "15"
+	"classname" "point_servercommand"
+	"angles" "0 0 0"
+	"targetname" "@Commands"
+	"origin" "0 32 0"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

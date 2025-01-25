@@ -1,0 +1,115 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "2"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "Input"
+	connections
+	{
+		"OnUser1" "cmdCommandbind w buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandbind a buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandbind s buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandbind d buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandbind SPACE buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandbind ` buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandbind h buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandbind g buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandbind f buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandunbindall0.01-1"
+		"OnUser1" "SaverFireUser10-1"
+		"OnUser1" "cmdCommandbind MOUSE1 buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandbind MOUSE2 buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandbind MOUSE3 buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandbind MOUSE4 buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandbind MOUSE5 buildcubemaps0.02-1"
+		"OnUser1" "cmdCommandsv_noclip_speed 00.02-1"
+		"OnUser1" "cmdCommand_resetgamestats0.02-1"
+		"OnUser1" "cmdCommandcrosshair 00.02-1"
+		"OnUser1" "cmdCommandhost_writeconfig0.03-1"
+	}
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "17"
+	"classname" "point_broadcastclientcommand"
+	"angles" "0 0 0"
+	"targetname" "cmd"
+	"origin" "32 0 0"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "56"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "Saver"
+	connections
+	{
+		"OnUser1" "SaverDisable0.01-1"
+		"OnUser1" "cmdCommandhost_writeconfig Backup0-1"
+	}
+	"origin" "0 32 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

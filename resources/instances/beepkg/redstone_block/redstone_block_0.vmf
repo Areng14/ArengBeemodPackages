@@ -1,0 +1,119 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8973"
+	"mapversion" "16"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "1"
+}
+world
+{
+	"id" "1"
+	"mapversion" "16"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "12452"
+		side
+		{
+			"id" "17603"
+			"plane" "(-16 16 -31) (16 16 -31) (16 -16 -31)"
+			"material" "EDITOR/ENV_FADE"
+			"uaxis" "[1 0 0 53] 14.1"
+			"vaxis" "[0 -1 0 21] 5.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17604"
+			"plane" "(-16 -16 -63) (16 -16 -63) (16 16 -63)"
+			"material" "EDITOR/ENV_FADE"
+			"uaxis" "[1 0 0 50] 10.6"
+			"vaxis" "[0 -1 0 27] 2.3"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17605"
+			"plane" "(-16 16 -31) (-16 -16 -31) (-16 -16 -63)"
+			"material" "EDITOR/ENV_FADE"
+			"uaxis" "[0 0.642788 0.766045 -46] 6.1"
+			"vaxis" "[0 0.766045 -0.642788 -50] 5.2"
+			"rotation" "50"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17606"
+			"plane" "(16 16 -63) (16 -16 -63) (16 -16 -31)"
+			"material" "EDITOR/ENV_FADE"
+			"uaxis" "[0 0.422618 0.906309 38] 2.2"
+			"vaxis" "[0 0.906309 -0.422618 -57] 5.3"
+			"rotation" "65"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17607"
+			"plane" "(16 16 -31) (-16 16 -31) (-16 16 -63)"
+			"material" "EDITOR/ENV_FADE"
+			"uaxis" "[1 0 0 45] 2"
+			"vaxis" "[0 0 -1 -62] 4.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17608"
+			"plane" "(16 -16 -63) (-16 -16 -63) (-16 -16 -31)"
+			"material" "EDITOR/ENV_FADE"
+			"uaxis" "[1 0 0 45] 2"
+			"vaxis" "[0 0 -1 -62] 4.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 204 161"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[46.8571 37.8445 -5.0162]"
+		"look" "[34.7211 23.3826 -14.0616]"
+	}
+}
+cordons
+{
+	"active" "0"
+}

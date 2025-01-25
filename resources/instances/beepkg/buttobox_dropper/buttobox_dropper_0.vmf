@@ -1,0 +1,125 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "6"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "215"
+	"mapversion" "6"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "216"
+	"classname" "prop_weighted_cube"
+	"allowfunnel" "1"
+	"angles" "-0.500006 180 -180"
+	"NewSkins" "1"
+	"PaintPower" "4"
+	"targetname" "ButtoBox"
+	"vscripts" "reorientcube.nut"
+	connections
+	{
+		"OnPlayerPickup" "ButtoBoxRunScriptCodereorientCube()0-1"
+	}
+	"origin" "-0.139626 0 -80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "218"
+	"classname" "prop_button"
+	"angles" "-0.500006 180 -180"
+	"Delay" "3"
+	"istimer" "1"
+	"parentname" "ButtoBox"
+	"targetname" "BoxoButton"
+	connections
+	{
+		"OnPressed" "0-1"
+		"OnButtonReset" "0-1"
+	}
+	"origin" "0 0 -64.0006"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "220"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_map_editor/bee2/p1/paint_dropper_reflect.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"targetname" "ButtoBoxDropper"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "224"
+	"classname" "env_entity_maker"
+	"angles" "0 0 0"
+	"EntityTemplate" "Boxitemplate"
+	"PostSpawnDirection" "0 0 0"
+	"PostSpawnDirectionVariance" "0.15"
+	"spawnflags" "0"
+	"targetname" "ButtoBoxSpawner"
+	"origin" "0 0 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "226"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "Boxitemplate"
+	"Template01" "ButtoBox"
+	"Template02" "BoxoButton"
+	"origin" "0 0 -80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}

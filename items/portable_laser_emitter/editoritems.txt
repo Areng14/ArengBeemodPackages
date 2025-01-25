@@ -9,7 +9,7 @@
 		"SubType"
 		{
 			"Name"				"Portable Laser Emitter"
-			"Model" { "ModelName"		"cubelaser.3ds" }
+			"Model" { "ModelName"		"laseremitc.3ds" }
 			"Palette"
 			{
 				"Tooltip"		"PORTABLE LASER EMITTER"

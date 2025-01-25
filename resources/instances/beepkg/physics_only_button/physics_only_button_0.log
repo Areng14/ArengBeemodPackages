@@ -1,0 +1,136 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\physics_only_button_0.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\physics_only_button_0.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10566 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 7
+Reduced 3 texdatas to 3 (69 bytes to 69)
+Writing a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\physics_only_button_0.bsp
+
+nummapplanes:     (   308 / 65536 )
+nummapbrushes:    (    10 /  8192 )
+nummapbrushsides: (   142 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     4 /  1024 )
+num_entities:     (     5 / 16384 )
+
+0 seconds elapsed
+[INFO] postcompiler.main(): HammerAddons postcompiler, srctools=v2.2.4.dev_6+d46509b, addons=v2.5.0
+[INFO] postcompiler.main(): Map path is a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\physics_only_button_0.bsp
+[WARNING] config.parse(): Cannot find a valid config file!
+[WARNING] config.parse(): Writing default to "a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\srctools.vdf"
+[ERROR] logger.except_handler(): Uncaught Exception:
+Traceback (most recent call last):
+  File "srctools\scripts\postcompiler.py", line 281, in <module>
+  File "srctools\scripts\postcompiler.py", line 94, in main
+  File "srctools\scripts\config.py", line 87, in parse
+ValueError: No game folder specified!
+Add -game $gamedir to the command line, or set it in "a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\srctools.vdf".
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\physics_only_button_0.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\physics_only_button_0.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10566 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 7
+Reduced 3 texdatas to 3 (69 bytes to 69)
+Writing a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\physics_only_button_0.bsp
+
+nummapplanes:     (   308 / 65536 )
+nummapbrushes:    (    10 /  8192 )
+nummapbrushsides: (   142 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     4 /  1024 )
+num_entities:     (     5 / 16384 )
+
+0 seconds elapsed
+[INFO] postcompiler.main(): HammerAddons postcompiler, srctools=v2.2.4.dev_6+d46509b, addons=v2.5.0
+[INFO] postcompiler.main(): Map path is a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\physics_only_button_0.bsp
+[INFO] config.parse(): Config path: "a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\srctools.vdf"
+[ERROR] logger.except_handler(): Uncaught Exception:
+Traceback (most recent call last):
+  File "srctools\scripts\postcompiler.py", line 281, in <module>
+  File "srctools\scripts\postcompiler.py", line 94, in main
+  File "srctools\scripts\config.py", line 87, in parse
+ValueError: No game folder specified!
+Add -game $gamedir to the command line, or set it in "a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\srctools.vdf".
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\physics_only_button_0.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity trigger_multiple (-0.50 0.50 -46.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5796 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 25 texinfos to 19
+Reduced 3 texdatas to 3 (75 bytes to 75)
+Writing a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\physics_only_button_0.bsp
+
+nummapplanes:     (   242 / 65536 )
+nummapbrushes:    (     8 /  8192 )
+nummapbrushsides: (    92 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     2 /  1024 )
+num_entities:     (     5 / 16384 )
+
+0 seconds elapsed
+[INFO] postcompiler.main(): HammerAddons postcompiler, srctools=v2.2.4.dev_6+d46509b, addons=v2.5.0
+[INFO] postcompiler.main(): Map path is a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\physics_only_button_0.bsp
+[INFO] config.parse(): Config path: "a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\srctools.vdf"
+[ERROR] logger.except_handler(): Uncaught Exception:
+Traceback (most recent call last):
+  File "srctools\scripts\postcompiler.py", line 281, in <module>
+  File "srctools\scripts\postcompiler.py", line 94, in main
+  File "srctools\scripts\config.py", line 87, in parse
+ValueError: No game folder specified!
+Add -game $gamedir to the command line, or set it in "a:\downloads\convine pkgs\arengitems\resources\instances\beepkg\physics_only_button\srctools.vdf".

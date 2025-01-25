@@ -1,0 +1,9 @@
+"Properties"
+	{
+	"Authors"		"Areng"
+	"Tags"			"Custom"
+	"Description" "A fizzler which fizzles both pairs of portals when using the Portal Switcher, regardless on which pair the player currently has control of."
+	"infoURL"		""
+	"Ent_Count"     "??"
+
+	}

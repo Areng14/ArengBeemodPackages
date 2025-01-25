@@ -1,9 +1,6 @@
-LightmappedGeneric
+"LightmappedGeneric"
 {
-$basetexture "signage/Magbutton"
-$surfaceprop glass
+"$basetexture" "signage/Magbutton"
 $selfillum 1
-%noportal 1
-%nopaint 1
-$nodecal 1
 }
+

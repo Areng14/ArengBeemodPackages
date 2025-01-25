@@ -1,0 +1,73 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "26"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "26"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "126"
+	"classname" "npc_portal_turret_floor"
+	"_frustum_color" "255 0 0"
+	"AllowShootThroughPortals" "1"
+	"angles" "0 180 0"
+	"CollisionType" "0"
+	"damagefilter" "NoDamage"
+	"DamageForce" "1"
+	"DisableMotion" "0"
+	"Gagged" "0"
+	"LoadAlternativeModels" "0"
+	"model" "models/npcs/turret/turret.mdl"
+	"ModelIndex" "0"
+	"physdamagescale" "1.0"
+	"PickupEnabled" "1"
+	"renderamt" "255"
+	"rendercolor" "0 128 255"
+	"SkinNumber" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "Turret"
+	"TurretRange" "999999999999999"
+	"UsedAsActor" "0"
+	"UseSuperDamageScale" "0"
+	"origin" "0 0 -63"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

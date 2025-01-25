@@ -1,7 +1,8 @@
 "Properties" {
-	"Authors"		"BEEmaker,"
+	"Authors"		"Areng"
+	"infoURL"		"https://docs.google.com/document/d/1WjZBdNaqj1uAB8FcCttXryYaaxxnZQIolMcp9KZ0Nlg/edit?usp=sharing"
 	"Tags"			"Custom"
-	"Description"	"An handrail"
+	"Description"	"A handrail."
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "0"
 	"Icon" {

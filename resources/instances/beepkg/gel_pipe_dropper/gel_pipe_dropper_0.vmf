@@ -1,0 +1,191 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "26"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "26"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	group
+	{
+		"id" "548"
+		editor
+		{
+			"color" "212 201 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "333"
+	"classname" "info_paint_sprayer"
+	"ambientsound" "0"
+	"angles" "0 180 180"
+	"blob_spread_angle" "8"
+	"blob_spread_radius" "5"
+	"blob_streak_percentage" "100"
+	"blobs_per_second" "50"
+	"drawonly" "0"
+	"end_radius_max" "0.7"
+	"end_radius_min" "0.5"
+	"max_speed" "100"
+	"max_streak_speed_dampen" "1000"
+	"max_streak_time" "0.5"
+	"maxblobcount" "250"
+	"min_speed" "100"
+	"min_streak_speed_dampen" "500"
+	"min_streak_time" "0.2"
+	"painttype" "0"
+	"radius_grow_time_max" "1"
+	"radius_grow_time_min" "0.5"
+	"rendermode" "0"
+	"silent" "0"
+	"skin" "0"
+	"start_active" "0"
+	"start_radius_max" "0.7"
+	"start_radius_min" "0.5"
+	"targetname" "Sprayer"
+	"origin" "-28 0 0"
+	editor
+	{
+		"color" "212 201 0"
+		"groupid" "548"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
+entity
+{
+	"id" "231"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_underground/tube_paint_128b.mdl"
+	"renderamt" "255"
+	"rendercolor" "0 128 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "68 -5.88094e-006 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "308"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_underground/tube_paint_interior_cap.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-12 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_static"
+	"angles" "90 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_underground/underground_paintdropper.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "3"
+	"solid" "6"
+	"origin" "-84 -1.0182e-005 -0.000400543"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "221"
+	"classname" "info_paint_sprayer"
+	"ambientsound" "0"
+	"angles" "0 180 180"
+	"blob_spread_angle" "8"
+	"blob_spread_radius" "25"
+	"blob_streak_percentage" "100"
+	"blobs_per_second" "50"
+	"drawonly" "0"
+	"end_radius_max" "0.7"
+	"end_radius_min" "0.5"
+	"max_speed" "100"
+	"max_streak_speed_dampen" "1000"
+	"max_streak_time" "0.5"
+	"maxblobcount" "250"
+	"min_speed" "100"
+	"min_streak_speed_dampen" "500"
+	"min_streak_time" "0.2"
+	"painttype" "0"
+	"radius_grow_time_max" "1"
+	"radius_grow_time_min" "0.5"
+	"rendermode" "0"
+	"silent" "1"
+	"skin" "0"
+	"start_active" "0"
+	"start_radius_max" "0.7"
+	"start_radius_min" "0.5"
+	"targetname" "Sprayer"
+	"origin" "-28 -1.39877e-006 -0.000400543"
+	editor
+	{
+		"color" "212 201 0"
+		"groupid" "548"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
