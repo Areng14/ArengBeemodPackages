@@ -1,7 +1,8 @@
 {
-  "id": "ARENGS_PACKAGES",
-  "name": "Arengs Packages",
+  "name": "arengitems",
+  "display_name": "Areng's Items",
   "author": "Areng14",
-  "version": "4.9.0",
+  "version": "1.0.0",
+  "description": "Adds custom items and mechanics to the puzzlemaker idk man",
   "compatibleWith": ">=2.4.41"
 }
